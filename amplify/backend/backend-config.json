@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "amplifytut3547aa5b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s355a7732e": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
