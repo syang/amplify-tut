@@ -34,7 +34,7 @@ class StorageTest extends React.Component {
     var cred = await Auth.currentCredentials();
 
     console.log("Identity ID = " + cred.identityId);
-    console.log("my cred = " + cred);
+    console.log(cred);
 
     const result = await Storage.put('test.txt', 'Protected Content', {
       level: 'protected',
